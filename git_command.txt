@@ -1,0 +1,57 @@
+# This is command to check in git file.
+
+
+chuong@chuong-PC MINGW64 ~/Desktop/cla (master)
+$ git config --global user.name "cl100005"
+
+chuong@chuong-PC MINGW64 ~/Desktop/cla (master)
+$ git config --global user.email "chuongla11@gmail.com"
+
+chuong@chuong-PC MINGW64 ~/Desktop/cla (master)
+$ git commit -m "updated README file"
+[master c0166d3] updated README file
+ 1 file changed, 3 insertions(+), 2 deletions(-)
+
+ chuong@chuong-PC MINGW64 ~/Desktop/cla (master)
+ $ git log
+ commit c0166d3bc8b73c3ff27f566c8202e5a63b086cb1
+ Author: cl100005 <chuongla11@gmail.com>
+ Date:   Tue Apr 18 19:37:28 2017 -0700
+
+     updated README file
+
+     commit 7fa327726f855def5cdc4416340b0fe0dfe7fd50
+     Author: cl100005 <chuongla11@gmail.com>
+     Date:   Tue Apr 18 19:06:24 2017 -0700
+
+         Initial commit
+
+	 chuong@chuong-PC MINGW64 ~/Desktop/cla (master)
+	 $ git status
+	 On branch master
+	 Your branch is ahead of 'origin/master' by 1 commit.
+	   (use "git push" to publish your local commits)
+	   nothing to commit, working directory clean
+
+	   chuong@chuong-PC MINGW64 ~/Desktop/cla (master)
+	   $ git remote add origin https://github.com/cl100005/cla
+	   fatal: remote origin already exists.
+
+	   chuong@chuong-PC MINGW64 ~/Desktop/cla (master)
+	   $ git status
+	   On branch master
+	   Your branch is ahead of 'origin/master' by 1 commit.
+	     (use "git push" to publish your local commits)
+	     nothing to commit, working directory clean
+
+	     chuong@chuong-PC MINGW64 ~/Desktop/cla (master)
+	     $ git push -u origin master
+	     Counting objects: 3, done.
+	     Delta compression using up to 4 threads.
+	     Compressing objects: 100% (2/2), done.
+	     Writing objects: 100% (3/3), 323 bytes | 0 bytes/s, done.
+	     Total 3 (delta 0), reused 0 (delta 0)
+	     To https://github.com/cl100005/cla
+	        7fa3277..c0166d3  master -> master
+		Branch master set up to track remote branch master from origin.
+
