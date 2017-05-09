@@ -7,3 +7,5 @@
 # no trigger, try again
 # GitHub hook trigger for GITScm polling did not work
 # Poll SCM should work if you do * * * * *
+# Poll SCM is working.
+# now we are adding test_freestyle.  This job will be triggered after first job test_init1 succeed.
