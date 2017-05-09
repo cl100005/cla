@@ -5,3 +5,5 @@
 # 5/9/17 update to test localhost jenkins 42.46.1 and see if this will auto trigger build when changes are commited. 
 # added webhook on github using localhost:8080
 # no trigger, try again
+# GitHub hook trigger for GITScm polling did not work
+# Poll SCM should work if you do * * * * *
