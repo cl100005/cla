@@ -1,0 +1,12 @@
+TOMCAT application install and configure on Macbook
+1. download tomcat from tomcat website.
+2. unzip and place tomcat in any folder application/tools.
+3. open terminal -> goto tomcat/bin directory and make all scripts executable; chmod +x *.sh
+4. start tomcat ./startup.sh
+5. shutdown to ./shutdown
+-------------------------
+install tomcat controller
+1. download
+2. unzip and run .dmg
+3. configure tomcat folder in tomcat controller
+4. to change default port edit /Applications/tools/apache-tomcat-8.5.14/conf/server.xml and change 8080 to 8082.
