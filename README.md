@@ -4,8 +4,8 @@
 # the new update has Jenkin run the build after the master branch is push, commited.
 # 5/9/17 update to test localhost jenkins 42.46.1 and see if this will auto trigger build when changes are commited. 
 # added webhook on github using localhost:8080
-# no trigger, try again
+# no trigger, try again, The webhook looks different than Bitbucket Hooks.
 # GitHub hook trigger for GITScm polling did not work
-# Poll SCM should work if you do * * * * *
+# Poll SCM should work if you do * * * * *  and this works since it polls every second or so.
 # Poll SCM is working.
 # now we are adding test_freestyle.  This job will be triggered after first job test_init1 succeed.
